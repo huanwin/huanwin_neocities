@@ -2,6 +2,10 @@
   To do:
 */
 
+:root {
+  --main-font-family: serif;
+}
+
 a:link {
   color: #0074D9; /* blue */
 }
@@ -17,7 +21,7 @@ a:visited {
 body {
   background-color: #fffcf5; /* off-white */
   color: black;
-  font:1.1em/1.5 serif;
+  font:1.1em/1.5 var(--main-font-family);
   margin:1em 1em;
 }
 
@@ -39,5 +43,11 @@ h1 {
 	font-style:italic;
 	justify-content:space-around;
 	margin: 2em;
-	padding: 1em;
+  padding: 1em;
+}
+
+.updated {
+  color: grey;
+  font: 0.9em var(--main-font-family);
+  text-align: center;
 }
