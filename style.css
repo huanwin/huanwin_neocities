@@ -1,0 +1,43 @@
+/*
+  To do:
+*/
+
+a:link {
+  color: #0074D9; /* blue */
+}
+
+a:hover {
+  color: #7FDBFF; /* aqua */
+}
+
+a:visited {
+  color: #B10DC9; /* purple */
+}
+
+body {
+  background-color: #fffcf5; /* off-white */
+  color: black;
+  font:1.1em/1.5 serif;
+  margin:1em 1em;
+}
+
+.content {
+  margin:auto;
+  max-width: 600px;
+}
+
+h1 {
+  border-bottom: 1px dashed grey;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-footer {
+  border-top: 1px dashed grey;
+  display:flex;
+	flex-direction:row;
+	font-style:italic;
+	justify-content:space-around;
+	margin: 2em;
+	padding: 1em;
+}
