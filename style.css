@@ -21,27 +21,24 @@ a:visited {
 body {
   background-color: #fffcf5; /* off-white */
   color: black;
-  font:1.1em/1.5 var(--main-font-family);
+  font:1em/1.5 var(--main-font-family);
   margin:1em 1em;
 }
 
 .content {
-  margin:auto;
-  max-width: 600px;
+  max-width: 80ch;
+  margin: auto;
 }
 
-h1 {
-  border-bottom: 1px dashed grey;
-  margin: auto;
-  text-align: center;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
 }
 
 .nav-footer {
-  border-top: 1px dashed grey;
   display:flex;
 	flex-direction:row;
 	font-style:italic;
-	justify-content:space-around;
+	justify-content:space-between;
 	margin: 2em;
   padding: 1em;
 }
@@ -49,5 +46,4 @@ h1 {
 .updated {
   color: grey;
   font: 0.9em var(--main-font-family);
-  text-align: center;
 }
